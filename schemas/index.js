@@ -43,6 +43,7 @@ import OnlineIntake from './OnlineIntake'
 import QueryIntake from './QueryIntake'
 import Requisition from './Requisition'
 import Reimbursement from './Reimbursement'
+import DiscordInvite from './DiscordInvite'
 
 export const schemaTypes = [
   genericActionButton,
@@ -86,4 +87,5 @@ export const schemaTypes = [
   QueryIntake,
   Requisition,
   Reimbursement,
+  DiscordInvite,
 ]
